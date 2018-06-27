@@ -1,4 +1,4 @@
-#three motifs and some functions
+#source three motifs and some functions
 source("D:/work/network competition/three-motif.R")
 
 #function to determine the outcomes of interaction: LC or DS
@@ -170,3 +170,5 @@ res_cl1214<-pblapply(1:1000,function(x){sim33_anytwo(res_l[[x]],c(12,14))}, cl =
 res_cl1314<-pblapply(1:1000,function(x){sim33_anytwo(res_l[[x]],c(13,14))}, cl =cl)
 res_cl1516<-pblapply(1:1000,function(x){sim33_anytwo(res_l[[x]],c(15,16))}, cl =cl)
 stopCluster(cl)
+
+
