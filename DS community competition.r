@@ -1,5 +1,5 @@
 #source three motifs and some functions
-source("D:/work/network competition/three-motif.R")
+source("../three-motif.R")
 
 #function to determine the outcomes of interaction: LC or DS
 NM<-function(M,A,N=n,b,c){
